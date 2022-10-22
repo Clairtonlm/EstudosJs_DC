@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+.navegacao {
+    display: block;
+    background: rgb(209, 205, 205);
+}
+#cabecalho {
+    margin: auto;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+#tabuleiro {
+    margin: 50px auto;
+    padding: 10px 10px;
+    background-color: brown;
+    width: 360px;
+    height:360px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#tabuleiro > div {
+    border: 1px solid red;
+    background-color: burlywood;
+    width: 110px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+    
+}
